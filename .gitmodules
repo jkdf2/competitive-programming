@@ -1,0 +1,3 @@
+[submodule "fall-2016-contests-solutions"]
+	path = fall-2016-contests-solutions
+	url = git@github.com:masonsbro/fall-2016-contests-solutions.git
