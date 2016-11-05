@@ -1,0 +1,24 @@
+*~
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+.fuse*
+
+# javadoc #
+doc/
+
+# C files
+btest
+fshow
+ishow
+*.out
+compiler
+compute.s
+sim/pipe/
+
+# python
+__pycache__/
+*.pyc

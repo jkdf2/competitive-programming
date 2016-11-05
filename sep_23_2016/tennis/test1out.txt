@@ -1,0 +1,16 @@
+15 love
+30 love
+40 love
+40 15
+40 30
+deuce
+advantage Serena
+deuce
+advantage Serena
+Serena won!
+15 love
+15 all
+30 15
+40 15
+40 30
+Federer won!
