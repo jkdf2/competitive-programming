@@ -10,7 +10,7 @@
 # javadoc #
 doc/
 
-# C files
+# C / C++ files
 btest
 fshow
 ishow
