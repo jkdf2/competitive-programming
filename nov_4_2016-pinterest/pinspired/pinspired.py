@@ -1,6 +1,5 @@
 import fileinput
 
-
 non_puns = set(["pin", "pins", "pinned", "pinning", "pinner", "pinners"])
 
 lines = fileinput.input()
@@ -11,10 +10,10 @@ for _ in range(num_tests):
     words = lines.readline().strip().lower().split()
     for word in words:
         if word in non_puns:
-#             print("{} is a non_pun".format(word))
+            # This word is a literal "pin" and not a pun! Skip!
             continue
         if "pin" in word:
-#             print("{} is a pun".format(word))
+            # The word is a pun! Count it :)
             puns += 1
 
     print(puns)
